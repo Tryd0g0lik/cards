@@ -1,0 +1,15 @@
+
+
+*.js
+__tests__/**/*.js
+src/*.js
+dist/
+archive/
+.github/
+src/index.ts
+.eslintrc.cjs
+node_modules/
+
+archive
+.cache
+
