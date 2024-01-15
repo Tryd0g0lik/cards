@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const { merge } = require("webpack-merge");
 const webpackFront = require("./src/frontend/webpack.config.js");
 module.exports = merge(webpackFront, {
-
+  entry: './src/index.ts',
   // devtool: 'evel-'
   mode: 'none',
 
@@ -22,7 +22,7 @@ module.exports = merge(webpackFront, {
     }),
 
     new ESLintPlugin({
-      files: path.resolve(__dirname, 'src/frontend'),
+      files: path.resolve(__dirname, 'src/frontend/src'),
 
     })
   ],

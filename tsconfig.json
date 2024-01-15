@@ -4,8 +4,7 @@
     "target": "ES2015",
     "module": "ES2020",
     "rootDirs": [
-      "./src/frontend",
-      "./src/backend"
+      "./src/frontend"
     ],
     "allowImportingTsExtensions": true,
     "allowJs": false,
@@ -23,8 +22,6 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "src/backend",
-    "./jest-setup.ts",
     "**/*.js"
   ],
   "exclude": [
@@ -34,6 +31,6 @@
     "**/result"
   ],
   "files": [
-    "src/index.tsx",
+    "src/index.ts",
   ]
 }

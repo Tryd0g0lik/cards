@@ -1,1 +1,1 @@
-console.log("Hallo word")
+import "./frontend/src/index.tsx"

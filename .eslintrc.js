@@ -41,7 +41,6 @@ module.exports = {
       "tsx": true
     }
   },
-  // автобус 15-ого ершыювеверни в барнаул
   "rules": {
     "no-explicit-any": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -86,8 +85,9 @@ module.exports = {
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
     // "@typescript-eslint/non-nullable-type-assertion-style": "error",
-    "object-shorthand": ["error", "never"]
-
+    "object-shorthand": ["error", "never"],
+    "react/no-string-refs": ["error", { "noTemplateLiterals": true }],
+    "@typescript-eslint/no-unnecessary-condition": "off"
   },
   "overrides": [
   // {

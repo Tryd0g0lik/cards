@@ -4,21 +4,18 @@ const common = require('./webpack.config');
 module.exports = merge(common, {
   watchOptions: {
     ignored: [
-      "**/backend",
-      "dist\\db",
-      "dist\\server",
       "node_modules",
       "**/node_modules"
     ]
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, './src/index.ts'),
+      directory: path.resolve(__dirname, './src'),
 
     },
 
     watchFiles: [
-      'src/fronted/src'
+      './src/frontend/src'
     ],
 
     compress: true,

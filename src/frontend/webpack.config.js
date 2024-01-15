@@ -1,17 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
-const webpack = require('webpack');
-
-
+const webpack = require('webpack')
 module.exports = {
   // devtool: 'evel-'
-  mode: 'none',
-  entry: {
+  
+  // entry: {
 
-    main: './src/index.tsx',
-    home: './src/index.ts'
-  },
+  //   main: './src/index.tsx'
+
+  // },
 
   target: 'web',
 
@@ -54,8 +52,6 @@ module.exports = {
     ],
   },
   plugins: [
-
-
 
   ],
 };
