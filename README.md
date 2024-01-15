@@ -1,4 +1,6 @@
 
+[![Build status](https://ci.appveyor.com/api/projects/status/sx8goitjw5yfswpu/branch/master?svg=true)](https://ci.appveyor.com/project/Tryd0g0lik/cards/branch/master)
+
 Вам необходимо реализовать компонент карточек, позволяющий использовать себя следующим образом:
 
 ![Card](https://github.com/netology-code/ra16-homeworks/blob/master/composition/cards/assets/card1.png?raw=true)
